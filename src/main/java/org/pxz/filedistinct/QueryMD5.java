@@ -1,4 +1,4 @@
-package md5;
+package org.pxz.filedistinct;
 
 import java.io.BufferedReader;
 import java.io.File;

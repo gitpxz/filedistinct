@@ -1,4 +1,4 @@
-package md5;
+package org.pxz.filedistinct;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
@@ -20,7 +20,7 @@ import java.util.Set;
  * 3、如果是文件，生成MD5摘要，并查询当前MD5文件中是否存在，如果已经存在，则将文件复制（可选）到当前目录下的exists文件夹，删掉源文件；
  * 4、如果是目录，回到步骤2；
  */
-public class FileDistinct {
+public class FileDistinctApp {
 	public static Set<String> ExistsMD5 = new HashSet<String>();
 	//1 删除文件前先复制文件到当前目录下的exists文件夹；0 删除文件前不复制文件
 	public static int isCopyDeletedFile=1;
